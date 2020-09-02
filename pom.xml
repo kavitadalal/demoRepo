@@ -156,14 +156,12 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
       <outputDirectory>/home/edureka/demo/target/classes</outputDirectory>
       <testOutputDirectory>C:\MVN\project\target\test-classes</testOutputDirectory>
       <resources>
-         <resource>
-            <mergeId>resource-0</mergeId>
+         <resource>            
             <directory>/home/edureka/demo/FeeManagementBootstrap/WebContent/resources</directory>
          </resource>
       </resources>
       <testResources>
-         <testResource>
-            <mergeId>resource-1</mergeId>
+         <testResource>            
             <directory>/home/edureka/demo/FeeManagementBootstrap/test/resources</directory>
          </testResource>
       </testResources>
