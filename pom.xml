@@ -39,7 +39,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 		</repository>
 	   	<repository>
 			<id>vaadin</id>
-			<url>https://mvnrepository.com/artifact</url>
+			<url>https://mvnrepository.com/artifact/com.vaadin</url>
 		</repository>
 		<repository>
 			<id>vaadin-snapshots</id>
@@ -66,8 +66,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
    </pluginRepositories>
    
    <dependencies>
-		<dependency>
-			<groupId>com.vaadin</groupId>
+		<dependency>			
 			<artifactId>vaadin-compatibility-server</artifactId>
 			<version>${vaadin.version}</version>
 		</dependency>
