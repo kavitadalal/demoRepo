@@ -27,8 +27,8 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
    <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<failOnMissingWebXml>false</failOnMissingWebXml>
-		<vaadin.version>8.12.0.alpha1</vaadin.version>
-		<vaadin.plugin.version>$(vaadin.version)</vaadin.plugin.version>
+		<vaadin.version>8.10.0.alpha1</vaadin.version>
+		<vaadin.plugin.version>${vaadin.version}</vaadin.plugin.version>
    </properties>
    
    <repositories>
@@ -69,22 +69,22 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 		<dependency>
 			<groupId>com.vaadin</groupId>
 			<artifactId>vaadin-compatibilty-server</artifactId>
-			<version>$(vaadin.version)</version>
+			<version>${vaadin.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.vaadin</groupId>
 			<artifactId>vaadin-compatibilty-shared</artifactId>
-			<version>$(vaadin.version)</version>
+			<version>${vaadin.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.vaadin</groupId>
 			<artifactId>vaadin-compatibilty-client-compiled</artifactId>
-			<version>$(vaadin.version)</version>
+			<version>${vaadin.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.vaadin</groupId>
 			<artifactId>vaadin-themes</artifactId>
-			<version>$(vaadin.version)</version>
+			<version>${vaadin.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>javax.servlet</groupId>
