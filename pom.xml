@@ -38,7 +38,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 			<url>https://vaadin.com/vaadin-8/releases</url>
 		</repository>
 		<repository>
-			<id>vaadin-addons<id>
+			<id>vaadin-addons</id>
 			<url>https://mvnrepository.com/artifact/com.vaadin.addon</url>
 		</repository>
 		<repository>
