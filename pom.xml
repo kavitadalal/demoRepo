@@ -39,7 +39,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 		</repository>
 	   	<repository>
 			<id>vaadin</id>
-			<url>https://mvnrepository.com/artifact/com.vaadin</url>
+			<url>https://mvnrepository.com/artifact</url>
 		</repository>
 		<repository>
 			<id>vaadin-snapshots</id>
