@@ -41,6 +41,10 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 			<id>vaadin-addons</id>
 			<url>https://mvnrepository.com/artifact/com.vaadin.addon</url>
 		</repository>
+	   	<repository>
+			<id>vaadin</id>
+			<url>https://mvnrepository.com/artifact/com.vaadin</url>
+		</repository>
 		<repository>
 			<id>vaadin-snapshots</id>
 			<url>http://oss.sonatype.org/content/repositories/snapshots</url>
@@ -68,7 +72,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
    <dependencies>
 		<dependency>
 			<groupId>com.vaadin</groupId>
-			<artifactId>vaadin-compatibilty-server</artifactId>
+			<artifactId>vaadin-compatibility-server</artifactId>
 			<version>${vaadin.version}</version>
 		</dependency>
 		<dependency>
@@ -78,7 +82,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 		</dependency>
 		<dependency>
 			<groupId>com.vaadin</groupId>
-			<artifactId>vaadin-compatibilty-client-compiled</artifactId>
+			<artifactId>vaadin-client-compiled</artifactId>
 			<version>${vaadin.version}</version>
 		</dependency>
 		<dependency>
