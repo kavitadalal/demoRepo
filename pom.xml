@@ -67,85 +67,85 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
    
    <dependencies>
 		<dependency>
-			<groupid>com.vaadin</groupid>
+			<groupId>com.vaadin</groupId>
 			<artifactId>vaadin-compatibilty-server</artifactId>
 			<version>$(vaadin.version)</version>
 		</dependency>
 		<dependency>
-			<groupid>com.vaadin</groupid>
+			<groupId>com.vaadin</groupId>
 			<artifactId>vaadin-compatibilty-shared</artifactId>
 			<version>$(vaadin.version)</version>
 		</dependency>
 		<dependency>
-			<groupid>com.vaadin</groupid>
+			<groupId>com.vaadin</groupId>
 			<artifactId>vaadin-compatibilty-client-compiled</artifactId>
 			<version>$(vaadin.version)</version>
 		</dependency>
 		<dependency>
-			<groupid>com.vaadin</groupid>
+			<groupId>com.vaadin</groupId>
 			<artifactId>vaadin-themes</artifactId>
 			<version>$(vaadin.version)</version>
 		</dependency>
 		<dependency>
-			<groupid>javax.servlet</groupid>
+			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.0.1</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
-			<groupid>log4j</groupid>
+			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
 			<version>1.2.9</version>
 		</dependency>
 		<dependency>
-			<groupid>commons-beanutils</groupid>
+			<groupId>commons-beanutils</groupId>
 			<artifactId>commons-beanutils</artifactId>
 			<version>1.9.2</version>
 			<type>jar</type>
 		</dependency>
 		<dependency>
-			<groupid>org.slf4j</groupid>
+			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-simple</artifactId>
 			<version>1.7.7</version>
 		</dependency>
 		<dependency>
-			<groupid>org.slf4j</groupid>
+			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
 			<version>1.7.7</version>
 		</dependency>
 		<dependency>
-			<groupid>org.slf4j</groupid>
+			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-log4j12</artifactId>
 			<version>1.7.7</version>
 		</dependency>
 		<dependency>
-			<groupid>junit</groupid>
+			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.7</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupid>commons-httpclient</groupid>
+			<groupId>commons-httpclient</groupId>
 			<artifactId>commons-httpclient</artifactId>
 			<version>3.1</version>
 		</dependency>
 		<dependency>
-			<groupid>org.apache.commons</groupid>
+			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
 			<version>3.1</version>
 		</dependency>
 		<dependency>
-			<groupid>org.json</groupid>
+			<groupId>org.json</groupId>
 			<artifactId>json</artifactId>
 			<version>20140107</version>
 		</dependency>
 		<dependency>
-			<groupid>org.codehaus.jackson</groupid>
+			<groupId>org.codehaus.jackson</groupId>
 			<artifactId>jackson-jaxrs</artifactId>
 			<version>1.9.4</version>
 		</dependency>
 		<dependency>
-			<groupid>com.sun.xml.security</groupid>
+			<groupId>com.sun.xml.security</groupId>
 			<artifactId>xml-security-impl</artifactId>
 			<version>1.0</version>
 		</dependency>
