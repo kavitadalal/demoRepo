@@ -14,9 +14,7 @@
 <!-- ============================================== -->
 
 <project xmlns = "http://maven.apache.org/POM/4.0.0" xmlns:xsi = "http://www.w3.org/
-
 2001/XMLSchema-instance" xsi:schemaLocation = "http://maven.apache.org/POM/4.0.0 
-
 http://maven.apache.org/xsd/maven-4.0.0.xsd">
    <modelVersion>4.0.0</modelVersion>
    <groupId>com.javatpoint</groupId>
@@ -132,20 +130,10 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 		</dependency>
    </dependencies>
    <build>
-      <sourceDirectory>/home/edureka/demo/FeeManagementBootstrap/</sourceDirectory>
+      <sourceDirectory>/home/edureka/demo/librarymanagementjava/</sourceDirectory>
       <testSourceDirectory>/home/edureka/demo/test/java</testSourceDirectory>
       <outputDirectory>/home/edureka/demo/target/classes</outputDirectory>
-      <testOutputDirectory>C:\MVN\project\target\test-classes</testOutputDirectory>
-      <resources>
-         <resource>            
-            <directory>/home/edureka/demo/FeeManagementBootstrap/WebContent/resources</directory>
-         </resource>
-      </resources>
-      <testResources>
-         <testResource>            
-            <directory>/home/edureka/demo/FeeManagementBootstrap/test/resources</directory>
-         </testResource>
-      </testResources>
+      <testOutputDirectory>/home/edureka/demo/target/test-classes</testOutputDirectory>
       <directory>/home/edureka/demo/target/</directory>
       <finalName>project-1.0</finalName>
        <pluginManagement>
